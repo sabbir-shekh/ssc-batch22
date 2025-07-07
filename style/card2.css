@@ -1,0 +1,78 @@
+
+body{
+    max-width: 1170px;
+    
+    margin: 0 auto; 
+}
+
+.card-section{
+    text-align: center;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 300px;
+    border: 2px solid sandybrown;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px black;
+    text-align: left;
+}
+
+.card:hover{
+    background-color: aquamarine;
+}
+.card h3{
+    font-size: 1.25em;
+   font-weight: 700;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card button{
+    background-color: aqua;
+    padding: 10px 30px;
+    font-size: 1.25em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-section h1{
+    background-color: bisque;
+    padding: 10px;
+    border: 1px solid sandybrown;
+}
+
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    list-style: none;
+    background-color:aqua;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul a:hover{
+    color: red;
+    transition: .25s;
+}
