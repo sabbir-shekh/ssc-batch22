@@ -3,6 +3,7 @@ body{
     max-width: 1170px;
     
     margin: 0 auto; 
+   
 }
 
 .card-section{
@@ -13,6 +14,7 @@ body{
 .card-container{
     display: flex;
     justify-content: center;
+    
     gap: 50px;
     flex-wrap: wrap;
     
@@ -27,9 +29,9 @@ body{
     text-align: left;
 }
 
-.card:hover{
+/* .card:hover{
     background-color: aquamarine;
-}
+} */
 .card h3{
     font-size: 1.25em;
    font-weight: 700;
@@ -41,20 +43,22 @@ body{
 
 .card button{
     background-color: aqua;
-    padding: 10px 30px;
-    font-size: 1.25em;
+    padding: 10px 20px;
+    
+    font-size: 1em;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .card-section h1{
-    background-color: bisque;
+    background-color: aqua;
     padding: 10px;
     border: 1px solid sandybrown;
+    border: none;
 }
 
 
-nav ul{
+/* nav ul{
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
@@ -75,4 +79,36 @@ nav ul a{
 nav ul a:hover{
     color: red;
     transition: .25s;
+} */
+
+/* shered */
+
+.card:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
 }
+
+.card button:hover{
+    background-color: pink;
+    color: black;
+    font-size: 18px;
+    transition: calc(.25s);
+}
+
+.card button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+   .contract{
+    display: flex;
+    gap: 5em;
+   }
+
+     #number {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
